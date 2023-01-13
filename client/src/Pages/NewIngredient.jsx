@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 
 
-const apiUrl = "http://localhost:49881/api/ingredients";
+const apiUrl = "/cgroup1/test2/tar6/api/ingredients";
 
 export default function NewIngredient() {
   const [name, setName] = useState('');

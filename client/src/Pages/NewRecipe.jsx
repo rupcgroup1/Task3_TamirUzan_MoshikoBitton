@@ -9,7 +9,7 @@ import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 
 
-const apiUrl = "http://localhost:49881/api/";
+const apiUrl = "/cgroup1/test2/tar6/api/ingredients";
 
 export default function NewRecipe() {
   const { ingredientsList , setIngredientsList} = useContext(RecipeIngredients);
@@ -21,7 +21,7 @@ export default function NewRecipe() {
   const [res, setRes] = useState([]);
 
   useEffect(() => {
-    fetch(apiUrl + "ingredients", {
+    fetch(apiUrl, {
       method: 'GET',
       headers: new Headers({
         'Content-Type': 'application/json; charset=UTF-8',

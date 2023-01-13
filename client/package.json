@@ -20,6 +20,7 @@
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
+    "homepage": "https://proj.ruppin.ac.il/cgroup1/test2/tar6/build/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

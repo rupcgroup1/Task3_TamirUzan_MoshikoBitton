@@ -5,7 +5,7 @@ import '../popup.css';
 import { useState, useEffect } from 'react';
 import FCIngredients from '../Components/FCIngredients';
 
-const apiUrl = "http://localhost:49881/api/recipes/";
+const apiUrl = "/cgroup1/test2/tar6/api/recipes/";
 
 export default function FCRecipe(props) {
   const [str, setStr] = useState("No ingredients yet, please add some first.");

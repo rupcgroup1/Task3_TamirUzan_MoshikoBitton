@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import FCRecipes from "../Components/FCRecipes"
 
 
-const apiUrl = "http://localhost:49881/api/recipes";
+const apiUrl = "/cgroup1/test2/tar6/api/recipes";
 
 export default function MyKitchen() {
   const [str, setStr] = useState(<div>
